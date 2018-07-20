@@ -164,6 +164,14 @@
       "byteLength": 38856
     }
   ],
+  "images": [
+    {
+      "uri": "Lightsaber_baseColor.png"
+    },
+    {
+      "uri": "Lightsaber_baseColor1.png"
+    }
+  ],
   "meshes": [
     {
       "primitives": [
@@ -201,12 +209,9 @@
   "materials": [
     {
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.0741766542,
-          0.0741766542,
-          0.0741766542,
-          1.0
-        ],
+        "baseColorTexture": {
+          "index": 0
+        },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
       },
@@ -214,15 +219,17 @@
     },
     {
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1.0,
-          0.0,
-          0.0,
-          1.0
-        ],
+        "baseColorTexture": {
+          "index": 1
+        },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
       },
+      "emissiveFactor": [
+        1.0,
+        0.0,
+        0.0
+      ],
       "name": "blade"
     }
   ],
@@ -291,10 +298,21 @@
         3
       ],
       "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        -0.707106769,
+        0.7071069
+      ],
       "scale": [
         0.04879706,
         0.114699692,
         0.04879706
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.089
       ],
       "name": "Lightsaber"
     }
@@ -305,6 +323,14 @@
       "nodes": [
         4
       ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
     }
   ]
 }
