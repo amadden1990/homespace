@@ -1,0 +1,202 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3",
+      "max": [
+        2.0,
+        0.06528731,
+        1.0
+      ],
+      "min": [
+        -2.0,
+        -6.123234E-17,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 48,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 144,
+      "byteLength": 216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 360,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 648,
+      "byteLength": 216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 864,
+      "byteLength": 96
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "curtains.bin",
+      "byteLength": 960
+    }
+  ],
+  "images": [
+    {
+      "uri": "curtains_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Curtain"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "Curtain Material"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        5.96046448E-08,
+        1.1920929E-07,
+        0.7071068,
+        0.7071068
+      ],
+      "scale": [
+        0.312100023,
+        4.17537928,
+        1.0
+      ],
+      "translation": [
+        -4.83720732,
+        -0.8153629,
+        0.0
+      ],
+      "name": "curtains"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        3.99,
+        0.0,
+        0.0
+      ],
+      "name": "curtains"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        5.96046448E-08,
+        0.7071068,
+        0.7071068
+      ],
+      "scale": [
+        0.312100023,
+        4.17537928,
+        1.0
+      ],
+      "translation": [
+        -4.83720732,
+        -2.41932964,
+        0.0
+      ],
+      "name": "curtains"
+    },
+    {
+      "children": [
+        0,
+        1,
+        2
+      ],
+      "mesh": 0,
+      "rotation": [
+        -0.5,
+        -0.50000006,
+        -0.49999994,
+        0.5
+      ],
+      "scale": [
+        0.3043078,
+        1.2706,
+        0.987383246
+      ],
+      "translation": [
+        0.124,
+        1.174,
+        4.47
+      ],
+      "name": "curtains"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        3
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}

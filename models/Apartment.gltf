@@ -1,0 +1,154 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 870,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 870,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 870,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 870,
+      "type": "VEC3",
+      "max": [
+        1.52029061,
+        2.00551963,
+        1.0
+      ],
+      "min": [
+        -4.578929,
+        -0.0223999918,
+        -14.20793
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 1725,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6960
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6960,
+      "byteLength": 10440
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17400,
+      "byteLength": 13920
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 31320,
+      "byteLength": 10440
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 41760,
+      "byteLength": 3450
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Apartment.bin",
+      "byteLength": 45210
+    }
+  ],
+  "images": [
+    {
+      "uri": "Apartment_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Merged_Meshes"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.86
+      },
+      "name": "Standard"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        0.940000057,
+        0.0,
+        3.70000029
+      ],
+      "name": "my-apartment"
+    },
+    {
+      "children": [
+        0
+      ],
+      "scale": [
+        1.36586189,
+        1.36586189,
+        1.36586189
+      ],
+      "translation": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "Apartment"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
