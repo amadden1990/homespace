@@ -37,41 +37,47 @@
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 289419,
-      "type": "VEC4"
+      "count": 88,
+      "type": "VEC2"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 289419,
-      "type": "VEC3"
+      "count": 88,
+      "type": "VEC2"
     },
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 289419,
-      "type": "VEC4"
+      "count": 88,
+      "type": "VEC3"
     },
     {
       "bufferView": 7,
       "componentType": 5126,
-      "count": 289419,
-      "type": "VEC3",
-      "max": [
-        0.0148463016,
-        0.0149072306,
-        0.0709896
-      ],
-      "min": [
-        -0.0151183205,
-        -0.0150573915,
-        -0.140806466
-      ]
+      "count": 88,
+      "type": "VEC4"
     },
     {
       "bufferView": 8,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC3",
+      "max": [
+        0.5000001,
+        1.0,
+        0.500000238
+      ],
+      "min": [
+        -0.5,
+        -1.0,
+        -0.50000006
+      ]
+    },
+    {
+      "bufferView": 9,
       "componentType": 5123,
-      "count": 1014972,
+      "count": 240,
       "type": "SCALAR"
     }
   ],
@@ -102,33 +108,38 @@
     {
       "buffer": 0,
       "byteOffset": 152104,
-      "byteLength": 4630704
+      "byteLength": 704
     },
     {
       "buffer": 0,
-      "byteOffset": 4782808,
-      "byteLength": 3473028
+      "byteOffset": 152808,
+      "byteLength": 704
     },
     {
       "buffer": 0,
-      "byteOffset": 8255836,
-      "byteLength": 4630704
+      "byteOffset": 153512,
+      "byteLength": 1056
     },
     {
       "buffer": 0,
-      "byteOffset": 12886540,
-      "byteLength": 3473028
+      "byteOffset": 154568,
+      "byteLength": 1408
     },
     {
       "buffer": 0,
-      "byteOffset": 16359568,
-      "byteLength": 2029944
+      "byteOffset": 155976,
+      "byteLength": 1056
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 157032,
+      "byteLength": 480
     }
   ],
   "buffers": [
     {
       "uri": "Lightsaber.bin",
-      "byteLength": 18389512
+      "byteLength": 157512
     }
   ],
   "meshes": [
@@ -150,16 +161,17 @@
       "primitives": [
         {
           "attributes": {
-            "COLOR_0": 4,
-            "NORMAL": 5,
-            "TANGENT": 6,
-            "POSITION": 7
+            "TEXCOORD_0": 4,
+            "TEXCOORD_1": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "POSITION": 8
           },
-          "indices": 8,
+          "indices": 9,
           "material": 1
         }
       ],
-      "name": "Torus"
+      "name": "Cylinder"
     }
   ],
   "materials": [
@@ -192,40 +204,40 @@
     {
       "mesh": 0,
       "rotation": [
-        -2.18556941E-08,
-        0.0,
-        0.0,
-        1.0
+        -1.10223625E-15,
+        1.0,
+        -2.18556959E-08,
+        4.470348E-08
       ],
       "scale": [
-        15.1161671,
-        15.1161671,
-        279.372223
+        9.460604,
+        9.460604,
+        174.847885
       ],
       "translation": [
-        -1.01789279E-08,
-        8.549021E-08,
-        2.60257626
+        0.0,
+        0.0,
+        -3.63300014
       ],
       "name": "Cylinder"
     },
     {
       "mesh": 1,
       "rotation": [
-        -2.18556941E-08,
-        0.0,
-        0.0,
-        1.0
+        -2.342883E-08,
+        0.7071067,
+        0.707106769,
+        5.29337569E-08
       ],
       "scale": [
-        19.6883926,
-        19.6883926,
-        19.6883926
+        0.2865334,
+        0.906544,
+        0.2865334
       ],
       "translation": [
-        0.00267783762,
-        -0.003176584,
-        -2.11815143
+        0.003,
+        0.0,
+        -0.262
       ],
       "name": "Torus"
     },
