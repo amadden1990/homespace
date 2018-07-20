@@ -5,6 +5,7 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 <body>
 <a-scene altspace="fullspace: true">
 <a-assets>
+<img id="AO" src="textures\AO.png">
 <img id="door" src="textures\door.jpg">
 <img id="whiteWallTexture" src="textures\whiteWallTexture.jpg">
 <img id="woodFloor" src="textures\woodFloor.jpg">
@@ -18,6 +19,16 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 </a-assets>
 
  
+
+<a-entity id="AO " geometry="primitive: plane; width:4.678559; height:-0.4078;" position="1.581 0.8760001 1.3468" rotation="-180 90 180.0001" material="shader: 
+standard; transparent: true; color: #FFFFFF; src: #AO; repeat: 1 1; offset: 0 0;  side: back; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="AO " geometry="primitive: plane; width:4.678559; height:-0.4078;" position="1.589 0.2069 1.3468" rotation="-180 89.99999 0" material="shader: 
+standard; transparent: true; color: #FFFFFF; src: #AO; repeat: 1 1; offset: 0 0;  side: back; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
 
 <a-entity id="fan-base " geometry="primitive: cylinder; height:0.06477963; radius:0.2017127;" position="2.441 2.558 4.93" rotation="0 0 0" material="shader: 
 standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
