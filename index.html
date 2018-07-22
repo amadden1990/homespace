@@ -5,21 +5,56 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 <body>
 <a-scene altspace="fullspace: true">
 <a-assets>
-<img id="door" src="textures\door.jpg">
 <img id="whiteWallTexture" src="textures\whiteWallTexture.jpg">
-<img id="woodFloor" src="textures\woodFloor.jpg">
+<img id="door" src="textures\door.jpg">
 <img id="carpet_1" src="textures\carpet_1.jpg">
-<a-asset-item id="curtains" src="models\/curtains.gltf"></a-asset-item>
-<a-mixin id="curtains-mixin" gltf-model="#curtains"></a-mixin>
+<img id="woodFloor" src="textures\woodFloor.jpg">
 <a-asset-item id="Apartment" src="models\/Apartment.gltf"></a-asset-item>
 <a-mixin id="Apartment-mixin" gltf-model="#Apartment"></a-mixin>
+<a-asset-item id="curtains" src="models\/curtains.gltf"></a-asset-item>
+<a-mixin id="curtains-mixin" gltf-model="#curtains"></a-mixin>
 
 
 </a-assets>
-
+<a-entity position="-3.899 1.137 -1.039" rotation="0 90 0" scale="1.7588 1.7588 1.7588" n-layout-browser='isEnclosure:false; url:getaugmently.com;'></a-entity>
  
 
-<a-entity id="fan-base " geometry="primitive: cylinder; height:0.06477963; radius:0.2017127;" position="2.118 2.558 4.93" rotation="0 0 0" material="shader: 
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:1.915303; depth:0.02722641;" position="-1.063 1.129 -4.375" rotation="0 0 89.99999" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #whiteWallTexture; repeat: 0.3 3; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="door " geometry="primitive: box; width:1.3656; height:2.333177; depth:0.049062;" position="0.88 1.1766 -7.442" rotation="0 180 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #door; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:2.636721; depth:0.02722641;" position="-0.051 1.3083 -4.375" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #whiteWallTexture; repeat: 0.3 3; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="door " geometry="primitive: box; width:1; height:2.333177; depth:0.049062;" position="1.618 1.1766 -5.871" rotation="0 270 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #door; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="carpet " geometry="primitive: plane; width:8.505135; height:20.85861; depth:51.80483;" position="0.235 0.001 -3.9131" rotation="90 0 0" material="shader: 
+standard; transparent: false; color: #C0C0C0; src: #carpet_1; repeat: 3 6; offset: 0 0;  side: double; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="ceiling " geometry="primitive: plane; width:8.505135; height:20.85861; depth:51.80483;" position="0.235 2.61 -3.9131" rotation="270 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #whiteWallTexture; repeat: 30 50; offset: 0 0;  side: double; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="door " geometry="primitive: box; width:1.1; height:2.333177; depth:0.049062;" position="0.146 1.1766 -6.861" rotation="0 90.00007 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #door; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="fan-base " geometry="primitive: cylinder; width:0.4034255; height:0.03238982; depth:0.4034255;" position="2.118 2.558 4.93" rotation="0 0 0" material="shader: 
 standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
 false; cast: false;" >
 <a-entity id="fan-blade " geometry="primitive: box; width:0.2562779; height:0.0250344; depth:1.677008;" position="0 0 0" rotation="0 0 0" material="shader: 
@@ -47,53 +82,20 @@ false; cast: false;" >
 
 </a-entity>
 
-<a-entity id="door " geometry="primitive: box; width:1.1; height:2.333177; depth:0.049062;" position="0.146 1.1766 -6.861" rotation="0 90.00007 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #door; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="door " geometry="primitive: box; width:1.3656; height:2.333177; depth:0.049062;" position="0.88 1.1766 -7.442" rotation="0 180 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #door; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="door " geometry="primitive: box; width:1; height:2.333177; depth:0.049062;" position="1.618 1.1766 -5.871" rotation="0 270 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #door; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:1.915303; depth:0.02722641;" position="-1.063 1.129 -4.375" rotation="0 0 89.99999" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #whiteWallTexture; repeat: 0.3 3; offset: 0 0;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:2.636721; depth:0.02722641;" position="-0.051 1.3083 -4.375" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #whiteWallTexture; repeat: 0.3 3; offset: 0 0;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
 <a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:2.636721; depth:0.02722641;" position="-2.075 1.3083 -4.375" rotation="0 0 0" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: #whiteWallTexture; repeat: 0.3 3; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="woodFloor " geometry="primitive: plane; width:2.866196; height:-10.81901;" position="3.055 0.002 -2.0675" rotation="-90 0 0" material="shader: 
+<a-entity id="woodFloor " geometry="primitive: plane; width:2.866196; height:10.81901; depth:51.80483;" position="3.055 0.002 -2.0675" rotation="90 0 0" material="shader: 
 standard; transparent: false; color: #9F9F9F; src: #woodFloor; repeat: 2 20; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="carpet " geometry="primitive: plane; width:8.505135; height:-20.85861;" position="0.235 0.001 -3.9131" rotation="-90 0 0" material="shader: 
-standard; transparent: false; color: #C0C0C0; src: #carpet_1; repeat: 3 6; offset: 0 0;  side: double; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
+<a-entity mixin="Apartment-mixin" ></a-entity><a-entity mixin="curtains-mixin" ></a-entity>
+<a-entity id="test" position="-3.25 0 -4.91"></a-entity>
 
-<a-entity id="ceiling " geometry="primitive: plane; width:8.505135; height:20.85861; depth:51.80483;" position="0.235 2.61 -3.9131" rotation="270 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #whiteWallTexture; repeat: 30 50; offset: 0 0;  side: double; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity n-gltf='url:models\/Lightsaber.gltf' n-skeleton-parent='part: hand; side: right' ></a-entity><a-entity mixin="curtains-mixin" ></a-entity><a-entity mixin="Apartment-mixin" ></a-entity>
-
+<a-entity position=" 1.68 0 -4.16" rotation=" 0 0 0" scale=" 0 0 1" n-portal='targetEntity: #test'></a-entity>
 
 </a-scene>
 </body>
