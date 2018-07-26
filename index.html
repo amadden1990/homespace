@@ -16,22 +16,24 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 
 
 </a-assets>
-<a-entity position="-1.055 1.848 -4.142" rotation="0 180 0" scale="1.263346 1.263346 1.263346" n-layout-browser='isEnclosure:false; url:getaugmently.com;'></a-entity>
+<a-entity position="-1.055 1.848 -4.142" rotation="0 -0.0003346792 0" scale="1.263346 1.263346 1.263346" n-layout-browser='isEnclosure:false; url:getaugmently.com;'></a-entity>
  
 
-<a-entity id="capsule-collider-test " geometry="primitive: cylinder; height:1.06344; radius:0.26586;" n-capsule-collider=' center: 5.960464E-08 0 8.940696E-08; direction: y; height: 2; radius: 0.5000001; isTrigger: false; type: environment;' position="-0.005 0.536 -1.514" rotation="0 0 0" material="shader: 
+<a-entity id="new-cube-entity " geometry="primitive: box; width:1; height:1; depth:1;" position="-1.626 0.746 0" rotation="0 0 0" material="shader: 
 standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
+false; cast: false;" ><a-animation 
+ attribute= "rotation" begin="click"
 
-<a-entity id="sphere-collider-test " geometry="primitive: sphere; radius:0.59493;" n-sphere-collider=' center: 0 0 0; radius: 0.5; isTrigger: false; type: environment;' position="-1.366 0.88893 -1.562" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
+ direction= "normal"
+ dur=" 1000"
+ easing="linear"
+ end=" "
+ fill= "none"
+ from=" "
+ repeat=" indefinite"
+ to="0 360 0"
+></a-animation>
 
-<a-entity id="cube-collider-test " geometry="primitive: box; width:0.55586; height:0.55586; depth:0.55586;" n-box-collider=' center: 0 0 0; size: 1 1 1; isTrigger: false; type: environment;' position="-2.771 0.278 -1.809" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
 </a-entity>
 
 <a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:1.915303; depth:0.02722641;" position="-1.063 1.129 -4.375" rotation="0 0 89.99999" material="shader: 
@@ -67,34 +69,6 @@ false; cast: false;" >
 <a-entity id="door " geometry="primitive: box; width:1.1; height:2.333177; depth:0.049062;" position="0.146 1.1766 -6.861" rotation="0 90.00007 0" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: #door; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" >
-</a-entity>
-
-<a-entity id="fan-base " geometry="primitive: cylinder; width:0.4034255; height:0.03238982; depth:0.4034255;" position="2.118 2.558 4.93" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-<a-entity id="fan-blade " geometry="primitive: box; width:0.2562779; height:0.0250344; depth:1.677008;" position="0 0 0" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-
-<a-entity id="fan-blade " geometry="primitive: box; width:0.2562778; height:0.0250344; depth:1.677008;" position="0 0 0" rotation="0 90 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-animation  attribute= "rotation"
-
- direction= "normal"
- dur=" 1000"
- easing="linear"
-
- fill= "none"
-
- repeat=" indefinite"
- to=" 0 360 0"
-></a-animation>
-
 </a-entity>
 
 <a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:2.636721; depth:0.02722641;" position="-2.075 1.3083 -4.375" rotation="0 0 0" material="shader: 
