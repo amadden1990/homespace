@@ -3,41 +3,47 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 4,
+      "count": 24,
       "type": "VEC2"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 4,
-      "type": "VEC3"
+      "count": 24,
+      "type": "VEC2"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 4,
-      "type": "VEC4"
+      "count": 24,
+      "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 4,
+      "count": 24,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 24,
       "type": "VEC3",
       "max": [
         0.5,
         0.5,
-        3.0616168E-17
+        0.5
       ],
       "min": [
         -0.5,
         -0.5,
-        -3.0616168E-17
+        -0.5
       ]
     },
     {
-      "bufferView": 4,
+      "bufferView": 5,
       "componentType": 5123,
-      "count": 6,
+      "count": 36,
       "type": "SCALAR"
     }
   ],
@@ -48,38 +54,43 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 32
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 32,
-      "byteLength": 48
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 80,
-      "byteLength": 64
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 144,
-      "byteLength": 48
+      "byteLength": 192
     },
     {
       "buffer": 0,
       "byteOffset": 192,
-      "byteLength": 12
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 384,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 672,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1056,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1344,
+      "byteLength": 72
     }
   ],
   "buffers": [
     {
-      "uri": "woodFloor.bin",
-      "byteLength": 204
+      "uri": "door-3.bin",
+      "byteLength": 1416
     }
   ],
   "images": [
     {
-      "uri": "woodFloor_baseColor.png"
+      "uri": "door-3_baseColor.png"
     }
   ],
   "meshes": [
@@ -88,15 +99,16 @@
         {
           "attributes": {
             "TEXCOORD_0": 0,
-            "NORMAL": 1,
-            "TANGENT": 2,
-            "POSITION": 3
+            "TEXCOORD_1": 1,
+            "NORMAL": 2,
+            "TANGENT": 3,
+            "POSITION": 4
           },
-          "indices": 4,
+          "indices": 5,
           "material": 0
         }
       ],
-      "name": "Quad"
+      "name": "Cube"
     }
   ],
   "materials": [
@@ -105,8 +117,8 @@
         "baseColorTexture": {
           "index": 0
         },
-        "metallicFactor": 0.08353512,
-        "roughnessFactor": 0.230000019
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
       },
       "name": "Standard"
     }
@@ -115,22 +127,22 @@
     {
       "mesh": 0,
       "rotation": [
-        -0.7071068,
         0.0,
+        0.707106769,
         0.0,
-        0.7071068
+        0.7071069
       ],
       "scale": [
-        2.86619616,
-        7.789686,
-        51.80483
+        1.0,
+        2.33317661,
+        0.049062
       ],
       "translation": [
-        3.055,
-        0.002,
-        -0.553
+        1.618,
+        1.1766,
+        -5.871
       ],
-      "name": "woodFloor"
+      "name": "door-3"
     }
   ],
   "scene": 0,
