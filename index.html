@@ -7,8 +7,6 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 <a-assets>
 <img id="whiteWallTexture" src="textures\whiteWallTexture.jpg">
 <img id="door" src="textures\door.jpg">
-<img id="carpet_1" src="textures\carpet_1.jpg">
-<img id="woodFloor" src="textures\woodFloor.jpg">
 
 
 </a-assets>
@@ -35,16 +33,6 @@ standard; transparent: false; color: #FFFFFF; src: #door; repeat: 1 1; offset: 0
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="carpet " geometry="primitive: plane; width:8.505135; height:20.85861; depth:51.80483;" position="0.235 0.001 -3.9131" rotation="-90 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #carpet_1; repeat: 10 20; offset: 0 0;  side: double; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="ceiling " geometry="primitive: plane; width:8.505135; height:20.85861; depth:51.80483;" position="0.235 2.61 -3.9131" rotation="-270 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #whiteWallTexture; repeat: 30 50; offset: 0 0;  side: double; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
 <a-entity id="door " geometry="primitive: box; width:1.1; height:2.333177; depth:0.049062;" position="0.146 1.1766 -6.861" rotation="0 -90.00007 0" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: #door; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" >
@@ -55,12 +43,7 @@ standard; transparent: false; color: #FFFFFF; src: #whiteWallTexture; repeat: 0.
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="woodFloor " geometry="primitive: plane; width:2.866196; height:10.81901; depth:51.80483;" position="3.055 0.002 -2.0675" rotation="-90 0 0" material="shader: 
-standard; transparent: false; color: #9F9F9F; src: #woodFloor; repeat: 2 20; offset: 0 0;  side: double; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity n-gltf='url:models\/my-apartment.gltf'></a-entity><a-entity n-gltf='url:models\/curtains.gltf'></a-entity>
+<a-entity n-gltf='url:models\/woodFloor.gltf'></a-entity><a-entity n-gltf='url:models\/carpet.gltf'></a-entity><a-entity n-gltf='url:models\/ceiling.gltf'></a-entity><a-entity n-gltf='url:models\/my-apartment.gltf'></a-entity><a-entity n-gltf='url:models\/curtains.gltf'></a-entity>
 <a-entity id="test" position="3.25 0 4.91"></a-entity>
 
 <a-entity position=" 0.8 1.18 -4.16" rotation=" 0 0 0" scale=" 0 0 1" n-portal='targetEntity: #test'></a-entity>

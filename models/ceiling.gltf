@@ -1,0 +1,149 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        3.0616168E-17
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -3.0616168E-17
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80,
+      "byteLength": 64
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 144,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 192,
+      "byteLength": 12
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "ceiling.bin",
+      "byteLength": 204
+    }
+  ],
+  "images": [
+    {
+      "uri": "ceiling_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Quad"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Standard"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        -0.707106769,
+        0.0,
+        0.0,
+        -0.7071068
+      ],
+      "scale": [
+        8.505135,
+        20.8586121,
+        51.80483
+      ],
+      "translation": [
+        0.235,
+        2.61,
+        -3.9131
+      ],
+      "name": "ceiling"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
