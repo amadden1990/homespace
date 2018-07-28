@@ -9,8 +9,6 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 <img id="door" src="textures\door.jpg">
 <img id="carpet_1" src="textures\carpet_1.jpg">
 <img id="woodFloor" src="textures\woodFloor.jpg">
-<a-asset-item id="curtains" src="models\/curtains.gltf"></a-asset-item>
-<a-mixin id="curtains-mixin" gltf-model="#curtains"></a-mixin>
 
 
 </a-assets>
@@ -62,7 +60,7 @@ standard; transparent: false; color: #9F9F9F; src: #woodFloor; repeat: 2 20; off
 false; cast: false;" >
 </a-entity>
 
-<a-entity n-gltf='url:models\/my-apartment.gltf'></a-entity><a-entity mixin="curtains-mixin" ></a-entity>
+<a-entity n-gltf='url:models\/my-apartment.gltf'></a-entity><a-entity n-gltf='url:models\/curtains.gltf'></a-entity>
 <a-entity id="test" position="3.25 0 4.91"></a-entity>
 
 <a-entity position=" 0.8 1.18 -4.16" rotation=" 0 0 0" scale=" 0 0 1" n-portal='targetEntity: #test'></a-entity>
