@@ -1,0 +1,167 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 897,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 897,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 897,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 897,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 897,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 897,
+      "type": "VEC3",
+      "max": [
+        1.52029061,
+        2.00551963,
+        1.0
+      ],
+      "min": [
+        -4.578929,
+        -0.0223999918,
+        -14.20793
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 1725,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 14352
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14352,
+      "byteLength": 7176
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21528,
+      "byteLength": 7176
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28704,
+      "byteLength": 10764
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39468,
+      "byteLength": 14352
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 53820,
+      "byteLength": 10764
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 64584,
+      "byteLength": 3450
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "my-apartment.bin",
+      "byteLength": 68034
+    }
+  ],
+  "images": [
+    {
+      "uri": "my-apartment_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 0,
+            "TEXCOORD_0": 1,
+            "TEXCOORD_1": 2,
+            "NORMAL": 3,
+            "TANGENT": 4,
+            "POSITION": 5
+          },
+          "indices": 6,
+          "material": 0
+        }
+      ],
+      "name": "pb_Mesh-1070"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.86
+      },
+      "name": "Standard"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        1.365862,
+        1.365862,
+        1.365862
+      ],
+      "translation": [
+        2.26,
+        0.0,
+        5.05
+      ],
+      "name": "my-apartment"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
