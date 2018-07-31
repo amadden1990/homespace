@@ -1,29 +1,29 @@
 <!DOCTYPE html><html><head>
 <script src="
-https://aframe.io/releases/0.7.0/aframe.min.js"></script>
-<script src="https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script>
-</head>
+https://aframe.io/releases/0.7.0/aframe.min.js"></script><script src="
+https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 <body>
 <a-scene altspace="fullspace: true">
 <a-assets>
-<img id="blackbricks" src="textures\blackbricks.png">
 <img id="whiteWallTexture" src="textures\whiteWallTexture.jpg">
+<img id="blackbricks" src="textures\blackbricks.png">
+<a-asset-item id="my-apartment-obj" src="models\/my-apartment-obj.gltf"></a-asset-item>
+<a-mixin id="my-apartment-obj-mixin" gltf-model="#my-apartment-obj"></a-mixin>
 
 
 </a-assets>
- <a-sky color="#000000"></a-sky>
 
 <a-entity position="2.497 0.75 -2.69" rotation="0 0 0" scale="1.5 1.5 1.5" n-layout-browser='isEnclosure:true; url:https://hah.altvr.com/play/?noPopup;'></a-entity>
 <a-entity position="-3.822 1.382 -0.48" rotation="0 89.9997 0" scale="2.519202 2.519202 2.519202" n-layout-browser='isEnclosure:false; url:https://altvr.com/;'></a-entity>
 
  
 
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.537549; height:0.03570545; depth:3.774022;" position="2.287 0.827 1.1423" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:1.915303; depth:0.02722641;" position="-1.063 1.129 -4.375" rotation="0 0 89.99999" material="shader: 
+standard; transparent: false; color: #9A9A9A; src: #whiteWallTexture; repeat: 0.3 3; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.537549; height:0.03570545; depth:3.774022;" position="1.7961 1.101 1.1423" rotation="0 0 0" material="shader: 
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.7830874; height:0.03570545; depth:1.539591;" position="3.9596 0.753 0.9688" rotation="0 0 0" material="shader: 
 standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
@@ -33,57 +33,17 @@ standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive:
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.7830874; height:0.03570545; depth:1.539591;" position="3.9596 0.753 0.9688" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.735777; height:0.7423171; depth:1.539591;" position="3.9832 0.3652 0.9688" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.8015; height:1.975585; depth:1;" position="3.9503 0.9818 2.327" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
 <a-entity id="new-cube-entity " geometry="primitive: box; width:0.143122; height:0.7781964; depth:0.025949;" position="-0.205 0.5381 -4.411" rotation="0 0 0" material="shader: 
 standard; transparent: false; color: #161616;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.143122; height:0.7781964; depth:0.025949;" position="-1.96 0.5381 -4.411" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #161616;  side: front; " shadow="receive: 
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:2.636721; depth:0.02722641;" position="-0.051 1.3083 -4.375" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #9A9A9A; src: #whiteWallTexture; repeat: 0.3 3; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="new-cube-entity " geometry="primitive: box; width:1.90538; height:0.1409908; depth:0.025949;" position="-1.076 0.997 -4.411" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #161616;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="new-cube-entity " geometry="primitive: box; width:1.904636; height:0.1409908; depth:0.025949;" position="-1.076 0.078 -4.411" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #161616;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="firePlace " geometry="primitive: plane; width:2.059559; height:-0.7378983;" position="-1.1 0.1474 -4.77" rotation="-270 -0.0001050454 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #blackbricks; repeat: 2 0.5; offset: 0 0;  side: double; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="firePlace " geometry="primitive: plane; width:0.7729336; height:-2.281986;" position="-0.103 1.1341 -4.7729" rotation="-180 -90 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #blackbricks; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="firePlace " geometry="primitive: plane; width:0.7729336; height:-2.281986;" position="-2.02 1.1341 -4.7729" rotation="-180 -270 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #blackbricks; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id="firePlace " geometry="primitive: plane; width:2.132633; height:-2.281986;" position="-0.988 1.1341 -5.132" rotation="-180 0 0" material="shader: 
+<a-entity id="firePlace " geometry="primitive: plane; width:0.7729336; height:2.281986; depth:1;" position="-0.103 1.1341 -4.7729" rotation="0 -90 0" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: #blackbricks; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
@@ -93,13 +53,28 @@ standard; transparent: false; color: #989898; src: #whiteWallTexture; repeat: 10
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:1.915303; depth:0.02722641;" position="-1.063 1.129 -4.375" rotation="0 0 89.99999" material="shader: 
-standard; transparent: false; color: #9A9A9A; src: #whiteWallTexture; repeat: 0.3 3; offset: 0 0;  side: front; " shadow="receive: 
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.143122; height:0.7781964; depth:0.025949;" position="-1.96 0.5381 -4.411" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #161616;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="new-cube-entity " geometry="primitive: box; width:0.12522; height:2.636721; depth:0.02722641;" position="-0.051 1.3083 -4.375" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #9A9A9A; src: #whiteWallTexture; repeat: 0.3 3; offset: 0 0;  side: front; " shadow="receive: 
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.735777; height:0.7423171; depth:1.539591;" position="3.9832 0.3652 0.9688" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.537549; height:0.03570545; depth:3.774022;" position="2.287 0.827 1.1423" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="firePlace " geometry="primitive: plane; width:2.059559; height:0.7378983; depth:1;" position="-1.1 0.1474 -4.77" rotation="-90 -0.0001050454 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #blackbricks; repeat: 2 0.5; offset: 0 0;  side: double; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.537549; height:0.03570545; depth:3.774022;" position="1.7961 1.101 1.1423" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
@@ -108,12 +83,37 @@ standard; transparent: false; color: #9A9A9A; src: #whiteWallTexture; repeat: 0.
 false; cast: false;" >
 </a-entity>
 
-<a-entity n-gltf='url:models\/door-1.gltf'></a-entity><a-entity n-gltf='url:models\/door-3.gltf'></a-entity><a-entity n-gltf='url:models\/door-2.gltf'></a-entity><a-entity n-gltf='url:models\/woodFloor.gltf'></a-entity><a-entity n-gltf='url:models\/carpet.gltf'></a-entity><a-entity n-gltf='url:models\/my-apartment.gltf'></a-entity><a-entity n-gltf='url:models\/curtains.gltf'></a-entity>
+<a-entity id="new-cube-entity " geometry="primitive: box; width:0.8015; height:1.975585; depth:1;" position="3.9503 0.9818 2.327" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="new-cube-entity " geometry="primitive: box; width:1.904636; height:0.1409908; depth:0.025949;" position="-1.076 0.078 -4.411" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #161616;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="firePlace " geometry="primitive: plane; width:2.132633; height:2.281986; depth:1;" position="-0.988 1.1341 -5.132" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #blackbricks; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="new-cube-entity " geometry="primitive: box; width:1.90538; height:0.1409908; depth:0.025949;" position="-1.076 0.997 -4.411" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #161616;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="firePlace " geometry="primitive: plane; width:0.7729336; height:2.281986; depth:1;" position="-2.02 1.1341 -4.7729" rotation="0 -270 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #blackbricks; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity mixin="my-apartment-obj-mixin" ></a-entity><a-entity n-gltf='url:models\/door-2.gltf'></a-entity><a-entity n-gltf='url:models\/curtains.gltf'></a-entity><a-entity n-gltf='url:models\/door-3.gltf'></a-entity><a-entity n-gltf='url:models\/carpet.gltf'></a-entity><a-entity n-gltf='url:models\/door-1.gltf'></a-entity><a-entity n-gltf='url:models\/woodFloor.gltf'></a-entity>
 <a-entity id="test" position="-0.796 0.826 -0.61"></a-entity>
 
 <a-entity position=" 0.8 1.18 -4.352" rotation=" 0 0 0" scale=" 0 0 1" n-portal='targetEntity: #test'></a-entity>
-<a-entity n-object='res: effects/fire' position="-1.038 0.613 -4.8" size="0.92 0.92 0.728686" rotation="0 0 0" ></a-entity>
 <a-entity n-object='res: effects/fire' position="-0.576 0.613 -4.8" size="0.92 0.92 0.728686" rotation="0 0 0" ></a-entity>
+<a-entity n-object='res: effects/fire' position="-1.038 0.613 -4.8" size="0.92 0.92 0.728686" rotation="0 0 0" ></a-entity>
 <a-entity n-object='res: effects/fire' position="-1.494 0.613 -4.8" size="0.92 0.92 0.728686" rotation="0 0 0" ></a-entity>
 
 </a-scene>
